@@ -12,6 +12,7 @@ contract MusicNFTMarketplace is ERC721("DAppFi", "DAPP"), Ownable {
     uint256 public royaltyFee;
 
     struct MarketItem {
+        
         uint256 tokenId;
         address payable seller;
         uint256 price;
